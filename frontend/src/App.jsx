@@ -7,7 +7,7 @@ import TaskCard from './components/TaskCard';
 import FilterBar from './components/FilterBar';
 
 // Environment variables will be used for production, local for now.
-const API_URL = 'http://localhost:5000/api/tasks';
+const API_URL = 'https://coll-edge-task-tracker.onrender.com/api/tasks';
 
 function App() {
   const [tasks, setTasks] = useState([]);
